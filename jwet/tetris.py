@@ -24,20 +24,6 @@ class Colors(Enum):
     PURPLE = (145, 30, 180)
     GREY = (128, 128, 128)
 
-class Figure(ABC):
-    """Abstract Base Class for a Figure"""
-
-    def move_left():
-
-    def move_right()
-
-    def rotate():
-
-    def drops():
-    
-    def freezes()
-
-
 
 class Shapes(Enum):
     """Standard Tetris shapes"""
@@ -48,6 +34,22 @@ class Shapes(Enum):
     TEE = auto()
     ZED = auto()
     ESS = auto()
+
+
+class Figure(ABC):
+    """Abstract Base Class for a Figure"""
+
+    def move_left():
+
+    def move_right():
+
+    def rotate():
+
+    def drops():
+    
+    def freezes():
+
+
 
 def random_color() -> Colors:
     """returns a random allowable piece color"""
