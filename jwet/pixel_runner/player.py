@@ -28,7 +28,7 @@ class Player(pygame.sprite.Sprite):
         )
         self.gravity = 0
         self.jump_sound = pygame.mixer.Sound(AudioAssets.JUMP.value)
-        self.jump_sound.set_volume(0.5)
+        self.jump_sound.set_volume(0.1)
 
     def player_input(self):
         """space bar makes the player jump"""

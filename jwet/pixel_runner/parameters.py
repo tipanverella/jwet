@@ -67,3 +67,4 @@ class Color(Enum):
 
     GAME_NAME_MESSAGE = (111, 196, 169)
     SCREEN_FILL = (94, 129, 162)
+    SCREEN_FILL_NOTHING = (30, 30, 30)

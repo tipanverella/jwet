@@ -7,6 +7,9 @@ GIT=git
 install:
 	$(CC) install
 
+pixel_runner:
+	cd jwet/pixel_runner/; $(CC) run python main.py
+
 black: $(PYTHONFILES)
 	export PYTHONDONTWRITEBYTECODE=1
 	$(CC) run black .
